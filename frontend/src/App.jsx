@@ -1,13 +1,29 @@
+import { Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar/Navbar";
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Products from "./pages/Products";
+import Pricing from "./pages/Pricing";
+import Support from "./pages/Support";
+import Signup from "./pages/Signup";
+import Login from "./pages/Login";
 
 function App() {
   return (
     <>
       <Navbar />
 
-      <h1>Zerodha Clone</h1>
-
-      <p>Welcome to our MERN Project 🚀</p>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </>
   );
 }
