@@ -1,5 +1,6 @@
 import "./Trust.css";
 import ecosystemImage from "../../assets/images/ecosystem.png";
+import LinkArrow from "../LinkArrow/LinkArrow";
 
 function Trust() {
   return (
@@ -64,7 +65,12 @@ function Trust() {
               src={ecosystemImage}
               alt="Zerodha Ecosystem"
               className="img-fluid trust-image"
+              
             />
+            <LinkArrow
+    text="Explore products"
+    href="#"
+/>
 
           </div>
 

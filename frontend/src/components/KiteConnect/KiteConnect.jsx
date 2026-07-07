@@ -2,6 +2,7 @@ import "./KiteConnect.css";
 
 import kcLogo from "../../assets/images/kite-connect.svg";
 import kcImage from "../../assets/images/kc-banner-image.svg";
+import LinkArrow from "../LinkArrow/LinkArrow";
 
 function KiteConnect() {
   return (
@@ -24,7 +25,10 @@ function KiteConnect() {
               Need more? Build your own trading and investing experience with
               Kite Connect, simple HTTP APIs to place orders, stream market
               data, manage your account, and more.
-              <a href="#"> Explore →</a>
+              <LinkArrow
+    text="Try demo"
+    href="#"
+/>
             </p>
           </div>
 
