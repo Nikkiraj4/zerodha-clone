@@ -1,0 +1,35 @@
+.trust {
+    padding: 90px 0;
+}
+
+.trust-heading {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #424242;
+    margin-bottom: 40px;
+}
+
+.trust-item {
+    margin-bottom: 35px;
+}
+
+.trust-item h4 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #424242;
+    margin-bottom: 12px;
+}
+
+.trust-item p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+}
+
+.trust-image {
+    width: 100%;
+    max-width: 520px;
+}

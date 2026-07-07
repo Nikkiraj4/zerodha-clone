@@ -1,0 +1,55 @@
+.kite-connect {
+    background: #f6fbff;
+    padding: 12px 0;
+    margin-bottom: 100px;
+}
+
+.kc-logo {
+    width: 160px;
+    height: auto;
+}
+
+.kc-text {
+    font-size: 15px;
+    line-height: 28px;
+    color: #666;
+    margin: 0;
+    font-weight: 400;
+}
+
+.kc-text a {
+    color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.kc-text a:hover {
+    color: #222;
+}
+
+.kc-image {
+    width: 170px;
+    height: auto;
+}
+
+@media (max-width: 992px) {
+    .kite-connect {
+        padding: 18px 20px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .kc-logo {
+        margin-bottom: 15px;
+    }
+
+    .kc-text {
+        margin-bottom: 15px;
+    }
+
+    .kc-image {
+        width: 150px;
+        margin-top: 15px;
+    }
+}
