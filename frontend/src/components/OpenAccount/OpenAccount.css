@@ -1,0 +1,38 @@
+.open-account {
+    width: 100%;
+    background: #fff;
+    padding: 80px 0;
+}
+
+.open-account-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.open-account-container h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #424242;
+    margin-bottom: 20px;
+}
+
+.open-account-container p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+@media (max-width: 768px) {
+
+    .open-account {
+        padding: 60px 0;
+    }
+
+    .open-account-container h2 {
+        font-size: 1.6rem;
+    }
+
+}
